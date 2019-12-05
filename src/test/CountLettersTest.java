@@ -8,5 +8,13 @@ public class CountLettersTest {
         Assert.assertEquals(true, true);
     }
 
-    // TODO
+    @Test
+    public void test1() throws Exception {
+        Assert.assertEquals(2, CountLetters.countLetters("lsdhflzhf", 'l'));
+    }
+    
+    @Test
+    public void test2() throws Exception {
+        Assert.assertEquals(-1, CountLetters.countLetters("", 'l'));
+    }
 }
