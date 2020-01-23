@@ -6,7 +6,7 @@ public class CaesarCipher {
 		
 		
 		
-		System.out.println(crypto("zabcd", -3));
+		System.out.println(crypto("zabcd", -2));
 		
 	
 			
